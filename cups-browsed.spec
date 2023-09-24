@@ -36,6 +36,7 @@ BuildRequires:	pkgconfig(ijs)
 BuildRequires:	pkgconfig(krb5)
 BuildRequires:	pkgconfig(libtiff-4)
 BuildRequires:	pkgconfig(avahi-client)
+BuildRequires:	pkgconfig(avahi-glib)
 BuildRequires:	pkgconfig(libexif)
 BuildRequires:	pkgconfig(libcupsfilters) >= 2.0.0
 BuildRequires:	pkgconfig(libppd)
