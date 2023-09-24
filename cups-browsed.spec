@@ -21,7 +21,6 @@ Release:	0.%{scmrev}.1
 Source0:	%{name}-%{scmrev}.tar.xz
 %endif
 %endif
-Source100:	%{name}.rpmlintrc
 Summary:	Helper that browses the network for remote CUPS and IPP printers
 URL:		http://www.linuxfoundation.org/collaborate/workgroups/openprinting/cups-browsed
 Group:		System/Printing
