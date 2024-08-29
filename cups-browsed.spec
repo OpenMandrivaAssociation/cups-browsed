@@ -3,21 +3,21 @@
 %define scmrev %{nil}
 
 Name:		cups-browsed
-Version:	2.0.0
+Version:	2.0.1
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
 Release:	1
 Source0:	https://github.com/OpenPrinting/cups-browsed/releases/download/%{version}/cups-browsed-%{version}.tar.xz
 %else
-Release:	0.%{scmrev}.1
+Release:	0.%{scmrev}1
 Source0:	%{name}-%{scmrev}.tar.xz
 %endif
 %else
 %if "%{scmrev}" == ""
-Release:	0.%{beta}.1
+Release:	0.%{beta}1
 Source0:	%{name}-%{version}%{beta}.tar.bz2
 %else
-Release:	0.%{scmrev}.1
+Release:	0.%{scmrev}1
 Source0:	%{name}-%{scmrev}.tar.xz
 %endif
 %endif
