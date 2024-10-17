@@ -22,7 +22,7 @@ Source0:	%{name}-%{scmrev}.tar.xz
 %endif
 %endif
 Summary:	Helper that browses the network for remote CUPS and IPP printers
-URL:		http://www.linuxfoundation.org/collaborate/workgroups/openprinting/cups-browsed
+URL:		https://www.linuxfoundation.org/collaborate/workgroups/openprinting/cups-browsed
 Group:		System/Printing
 BuildRequires:	pkgconfig(com_err)
 BuildRequires:	pkgconfig(dbus-1)
