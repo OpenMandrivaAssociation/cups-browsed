@@ -3,7 +3,7 @@
 %define scmrev %{nil}
 
 Name:		cups-browsed
-Version:	2.0.1
+Version:	2.1.0
 %if "%{beta}" == ""
 %if "%{scmrev}" == ""
 Release:	1
